@@ -1,18 +1,3 @@
-# Mise en oeuvre d'un micro-service | Gestion des comptes bancaires
-
-## Objectif
-Dans cette application, nous allons mettre en oeuvre un micro-service permettant de gérer des comptes bancaires.
-
-## Initialisation du projet
-Pour initialiser le projet, nous allons utiliser le générateur de projet Spring Initializr. Pour cela, nous allons utiliser l'URL suivante : https://start.spring.io/
-
-Nous allons créer un projet Maven avec les dépendances suivantes :
-- Spring Web
-- Spring Data JPA
-- Spring GraphQL
-- H2 Database
-- Lombok
-
 ## Création des entités JPA
 On crée le package `com.example.bankaccount.model` et on y ajoute les entités suivantes :
 - BankAccount
